@@ -41,4 +41,7 @@ list_ec2_instances() {
     echo
     echo "Total number of EC2 instances across all regions: $total_instances"
 }
+# Main script execution
+check_aws_cli
+list_ec2_instances
 
